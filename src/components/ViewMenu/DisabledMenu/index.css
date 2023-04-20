@@ -1,0 +1,19 @@
+.disabled-menu-container {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+  flex-direction: column;
+}
+.disabled-title {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.disabled-link {
+  color: blue;
+  font-weight: 500;
+}

@@ -1,0 +1,17 @@
+.view-search-content {
+  display: flex;
+  align-items: center;
+}
+.view-search-input-container {
+  margin-left: 16px;
+}
+.view-search {
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+  width: 145px;
+}
+.view-search:focus {
+  outline-width: 0;
+  outline: none;
+}

@@ -1,0 +1,45 @@
+.contact-mail-container {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+}
+.contact-wpp-container {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+.forgot-password-modal {
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+.login-container {
+  border: 1px solid #c9c9c9;
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+.login-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+}
+.login-link {
+  color: #ff1744;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .contact-mail-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .forgot-password-modal {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+  .qr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .device-frame {
+    width: 400px;
+  }
+}
+
+.device-frame {
+  width: 350px;
+}

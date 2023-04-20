@@ -1,0 +1,17 @@
+.view-order-top-options {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.view-order-language-icon {
+  width: 18px;
+  height: 18px;
+}
+.view-order-language-text {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 6px;
+}
+.change-language-selector {
+  z-index: 100;
+}

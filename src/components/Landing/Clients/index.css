@@ -1,0 +1,27 @@
+.image-slide-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image-container {
+  margin: 24px;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
+
+@media (max-width: 991px) {
+  .image-container {
+    margin: 12px;
+    width: 100px;
+    height: 100px;
+  }
+}

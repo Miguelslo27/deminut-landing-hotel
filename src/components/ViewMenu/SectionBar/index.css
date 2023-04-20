@@ -1,0 +1,29 @@
+.view-search-sections {
+  display: 'flex';
+  flex-direction: row;
+  margin-left: 12px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  flex: 1;
+  height: 50px;
+  width: 100%;
+}
+.view-search-sections::-webkit-scrollbar {
+  display: none;
+}
+.view-search-section-container {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+}
+.view-search-section-container-active {
+  border-bottom: 3px solid #ff1744;
+}
+.view-search-section-text {
+  font-size: 14px;
+  margin-top: 2px;
+  color: #3f3f3f;
+  font-weight: bold;
+  text-transform: uppercase;
+}

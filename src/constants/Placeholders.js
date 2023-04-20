@@ -1,0 +1,1 @@
+export const DISH_IMAGE_PLACEHOLDER_URL = 'https://deminut.s3.amazonaws.com/v1/assets/dish_placeholder.png';

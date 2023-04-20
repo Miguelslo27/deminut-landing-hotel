@@ -1,0 +1,25 @@
+.sel-container {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  align-items: center;
+}
+.sel-icon {
+  color: white;
+}
+.sel-icon-secondary {
+  color: #ff1744;
+}
+.sel-amount-container {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.sel-amount {
+  font-size: 16px;
+  color: white;
+}
+.sel-amount-secondary {
+  font-size: 16px;
+  color: #ff1744;
+}

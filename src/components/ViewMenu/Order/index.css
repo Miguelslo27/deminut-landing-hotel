@@ -1,0 +1,114 @@
+.view-order-detail {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  overflow-y: scroll;
+}
+.view-order-top-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.view-order-top-options {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.view-order-trash-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 16px;
+}
+.view-order-items {
+  margin-top: 28px;
+  height: 40%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.view-order-item {
+  display: flex;
+  margin-bottom: 14px;
+  flex-direction: column;
+}
+.view-order-item-row {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.view-order-item-title {
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+  width: 50%;
+}
+.view-order-item-price {
+  font-weight: 600;
+  font-size: 15px;
+}
+.view-order-item-comments {
+  font-size: 12px;
+  color: #ff1744;
+  letter-spacing: 0.2px;
+}
+.view-order-buttons-container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.view-order-select-location {
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.view-order-item-total-container {
+  padding-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.view-order-item-total-title {
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+.view-order-item-send-to-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #424242;
+}
+.view-order-item-shipping-amount {
+  font-weight: 600;
+  font-size: 16px;
+}
+.view-order-item-total-amount {
+  font-weight: 600;
+  font-size: 21px;
+}
+.edit-order-button {
+  margin-top: 16px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ff1744;
+  border-radius: 8px;
+}
+.edit-order-button-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ff1744;
+}
+@media (min-width: 991px) {
+}

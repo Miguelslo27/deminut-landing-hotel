@@ -1,0 +1,92 @@
+.modal-input-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #b8b8b8;
+  padding: 6px 12px;
+  border-radius: 8px;
+  align-items: center;
+  margin-left: 4px;
+  max-width: 70% ;
+}
+.number-input-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #b8b8b8;
+  padding: 6px 12px;
+  border-radius: 8px;
+  align-items: center;
+  margin-left: 8px;
+}
+.input-label {
+  font-size: 13px;
+  color: #047091;
+  font-weight: 600;
+}
+.input-label-confirm {
+  color: #04912e;
+}
+.input-icon-container {
+  margin-right: 8px;
+}
+.input-icon {
+  color: #047091;
+}
+.input-icon-confirm {
+  color: #04912e;
+}
+.number-input {
+  border: none;
+  font-size: 24px;
+  color: #303435;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+}
+.number-input:focus {
+  outline-width: 0;
+  outline: none;
+}
+.text-input {
+  border: none;
+  font-size: 14px;
+  color: #303435;
+  font-weight: 400;
+}
+.text-input:focus {
+  outline-width: 0;
+  outline: none;
+}
+.modal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.modal-text {
+  color: #202020;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.modal-text-small {
+  color: #202020;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.send-to-modal {
+  margin: 0 auto;
+}
+.send-to-shipping-item {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .send-to-modal {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+

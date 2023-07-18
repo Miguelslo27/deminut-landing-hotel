@@ -54,7 +54,7 @@
 }
 .view-order-item-comments {
   font-size: 12px;
-  color: #ff1744;
+  color: #f9b302;
   letter-spacing: 0.2px;
 }
 .view-order-buttons-container {
@@ -102,13 +102,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ff1744;
+  border: 1px solid #f9b302;
   border-radius: 8px;
 }
 .edit-order-button-text {
   font-size: 15px;
   font-weight: 500;
-  color: #ff1744;
+  color: #f9b302;
 }
 @media (min-width: 991px) {
 }

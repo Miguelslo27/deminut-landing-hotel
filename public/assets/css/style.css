@@ -46,11 +46,12 @@
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap'); */
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
 ****************************** */
+@import url(fonts.css);
 @import url(bootstrap.min.css);
 @import url(all.min.css);
 @import url(../font/flaticon.css);
@@ -69,7 +70,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Mont', sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;

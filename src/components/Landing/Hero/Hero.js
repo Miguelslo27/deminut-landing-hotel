@@ -64,7 +64,7 @@ const HeroSection = () => {
                 <a
                   className="btn sApp-btn text-uppercase"
                   target="_blank"
-                  href="https://wa.me/59894157315"
+                  href="https://wa.me/59891066416"
                 >
                   <FontAwesomeIcon
                     icon={faWhatsapp}

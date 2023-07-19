@@ -17,11 +17,11 @@ class FooterSection extends Component {
                   <div className="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
                     {/* Copyright Left */}
                     <div className="copyright-left" style={{ fontSize: '12px' }}>
-                      <strong>Teléfono de contacto:</strong><a href="https://wa.me/+59894157315" style={{ color: 'blue' }}>+59894157315 (Chat WhatsApp)</a> - Montevideo, Uruguay
+                      <strong>Teléfono de contacto:</strong><a href="https://wa.me/59891066416" target="_blank" style={{ color: 'blue' }}>(+598) 091 066 416 (Chat WhatsApp)</a> - Montevideo, Uruguay
                     </div>
                     {/* Copyright Right */}
                     <div className="copyright-right" style={{ fontSize: '12px', marginLeft: 16 }}>
-                      © 2021 Deminut. Made with <i className="fas fa-heart" /> By{' '}
+                      © 2023 Deminut. Made with <i className="fas fa-heart" /> By{' '}
                       <a href="/#" style={{ color: '#f9b302' }}>Reach</a>
                     </div>
                   </div>

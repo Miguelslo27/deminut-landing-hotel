@@ -49,23 +49,23 @@ const Header = props => {
                     <li className="nav-item">
                       <a className="nav-link scroll" href="#home">
                         Inicio
-                        </a>
+                      </a>
                     </li>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#features">
                       Servicios
-                      </a>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#pricing">
                       Planes
-                      </a>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#contact">
                       Contacto
-                      </a>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="https://portal.deminut.com">

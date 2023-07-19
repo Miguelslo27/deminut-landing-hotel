@@ -95,7 +95,7 @@ const SignupForm = ({ onLoginRequest }) => {
               Al registrarte, confirmas que aceptas los <strong><a href="/signup/agreement">Términos de Servicio y Políticas de Privacidad</a></strong>
               <span>
                 <br></br>
-                <strong style={{ color: '#ff1744' }}> {error}</strong>
+                <strong style={{ color: '#f9b302' }}> {error}</strong>
               </span>
               <button
                 className="btn btn-bordered w-100 mt-3 mt-sm-4"

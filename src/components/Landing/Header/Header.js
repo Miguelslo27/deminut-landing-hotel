@@ -14,13 +14,13 @@ const Header = props => {
             className="navbar-brand-regular"
             src="/img/logo-white.png"
             alt="sticky brand-logo"
-            style={{ width: 140, marginBottom: 12, marginTop: 16 }}
+            style={{ width: 220, marginBottom: 12, marginTop: 16 }}
           />
           <img
             className="navbar-brand-sticky"
             src="/img/logo.png"
             alt="sticky brand-logo"
-            style={{ width: 140, marginBottom: 12, marginTop: 12 }}
+            style={{ width: 220, marginBottom: 12, marginTop: 12 }}
           />
         </a>
         <button

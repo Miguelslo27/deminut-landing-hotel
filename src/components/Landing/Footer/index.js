@@ -22,7 +22,7 @@ class FooterSection extends Component {
                     {/* Copyright Right */}
                     <div className="copyright-right" style={{ fontSize: '12px', marginLeft: 16 }}>
                       © 2021 Deminut. Made with <i className="fas fa-heart" /> By{' '}
-                      <a href="/#" style={{ color: '#ff1744' }}>Reach</a>
+                      <a href="/#" style={{ color: '#f9b302' }}>Reach</a>
                     </div>
                   </div>
                 </div>

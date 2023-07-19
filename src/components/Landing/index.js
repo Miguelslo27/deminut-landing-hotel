@@ -30,10 +30,12 @@ const Landing = () => {
           onHandleLogin={handleLoginVisible}
         />
         <Hero />
-        <MenuFeature />
-        <OrderFeature />
+        <div id="features">
+          <MenuFeature />
+          <OrderFeature />
+        </div>
         <Functionality />
-        <Clients />
+        {/* <Clients /> */}
         <Pricing />
         <Contact />
         <Footer />

@@ -14,7 +14,7 @@ const SignupForm = ({ onLoginRequest }) => {
   const history = useHistory();
 
   const submitRegister = () => {
-    history.location = 'https://portal.deminut.com';
+    history.location = 'https://portal-stg.deminut.com';
   };
 
   return (
@@ -30,22 +30,20 @@ const SignupForm = ({ onLoginRequest }) => {
           <div className="contact-top">
             <h3 className="contact-title">
               Comience ahora
-                  </h3>
+            </h3>
             <h5 className="text-secondary fw-3 py-3">
               Regístrese ahora y disfrute de un servicio que colocará a sus restaurantes por delante de la competencia.
             </h5>
           </div>
           <div className="row">
-
             <a
               className="btn btn-bordered w-100"
               disabled={loading}
-              href='https://portal.deminut.com'
+              href='https://portal-stg.deminut.com'
             >
               Iniciar sesión
             </a>
           </div>
-
         </form>
         <p className="form-message" />
       </div>

@@ -58,7 +58,7 @@ class DiscoverSection extends Component {
                           {/* List Box */}
                           <div className="list-box media">
                             <span className="icon align-self-center">
-                              <i className={item.iconClass} style={{ color: '#ff1744' }} />
+                              <i className={item.iconClass} style={{ color: '#f9b302' }} />
                             </span>
                             <span className="media-body pl-2">
                               {item.text}

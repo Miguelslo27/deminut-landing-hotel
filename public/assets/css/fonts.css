@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-Boldltalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-Bookltalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-ExtraLight.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-ExtraLightItalic.otf') format('opentype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-Hairline.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../font/Mont-Hairlineltalic.otf') format('opentype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-Heavy.of') format("opentype");
+  font-weight: bolder;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-Heavyltalic.otf') format("opentype");
+  font-weight: bolder;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-Light.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-Lightitalic.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-Regular.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-RegularItalic.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-SemiBold.otf') format("opentype");
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-SemiBoldItalic.otf') format("opentype");
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Mont-Thin.otf') format('opentype');
+  /* La siguiente línea es opcional */
+  /* Se utiliza para que el texto se parezca más al Montserrat Thin original */
+  /* Si no desea este efecto, simplemente elimine la línea */
+  text-shadow: -1px -1px white, 1px -1px white, -1px -1px white, -1px -1px white, 0px -1px white, -1px -1px white, -1px -1px white, -1px -1px white, -1px -1px white, -1px -1px white, -1px -1px white, -1px -1px white, -1px -1px white, -1px -1px white;
+}

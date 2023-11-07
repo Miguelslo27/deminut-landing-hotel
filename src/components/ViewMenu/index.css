@@ -149,14 +149,14 @@ html {
   padding: 8px;
   display: flex;
   flex-direction: column;
-  background-color: #ff1744;
+  background-color: #f9b302;
 }
 .view-order-amount-container {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: #ff1744;
+  background-color: #f9b302;
 }
 .view-order-title-text {
   color: #ffffff;
@@ -209,7 +209,7 @@ html {
   }
   .view-top-container {
     background-size: unset;
-    background-color: #ff1744;
+    background-color: #f9b302;
     background-blend-mode: multiply;
   }
   .view-search-sections {

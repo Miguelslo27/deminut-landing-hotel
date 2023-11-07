@@ -14,13 +14,13 @@ const Header = props => {
             className="navbar-brand-regular"
             src="/img/logo-white.png"
             alt="sticky brand-logo"
-            style={{ width: 140, marginBottom: 12, marginTop: 16 }}
+            style={{ width: 220, marginBottom: 12, marginTop: 16 }}
           />
           <img
             className="navbar-brand-sticky"
             src="/img/logo.png"
             alt="sticky brand-logo"
-            style={{ width: 140, marginBottom: 12, marginTop: 12 }}
+            style={{ width: 220, marginBottom: 12, marginTop: 12 }}
           />
         </a>
         <button
@@ -49,23 +49,23 @@ const Header = props => {
                     <li className="nav-item">
                       <a className="nav-link scroll" href="#home">
                         Inicio
-                        </a>
+                      </a>
                     </li>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#features">
                       Servicios
-                      </a>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#pricing">
                       Planes
-                      </a>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#contact">
                       Contacto
-                      </a>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="https://portal.deminut.com">

@@ -133,7 +133,7 @@ class PricingSection extends Component {
                         {/* Plan Thumb */}
                         {/* Plan Title */}
                         <div className="plan-title my-2 my-sm-3">
-                          <h3 className="text-uppercase" style={{ color: "#ff1744" }}>
+                          <h3 className="text-uppercase" style={{ color: "#f9b302" }}>
                             {item.planTitle}
                           </h3>
                         </div>

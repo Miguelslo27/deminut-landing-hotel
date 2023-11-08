@@ -72,7 +72,9 @@ class DiscoverSection extends Component {
                     target="_blank"
                     style={{ fontWeight: 'bold', textDecoration: 'underline', display: 'inline' }}>link</a>.
                 </p>
-                <div className="qr-container">
+                <div className="qr-container" style={{
+                  textAlign: 'center',
+                }}>
                   <img
                     src="img/demo_qr.png"
                     width={340}

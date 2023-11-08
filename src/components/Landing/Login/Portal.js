@@ -18,7 +18,7 @@ const SignupForm = ({ onLoginRequest }) => {
   };
 
   return (
-    <div className="col-12 col-md-8 col-lg-5 mt-5">
+    <div className="col-12 col-md-8 col-lg-5 mt-5 mb-5">
       {/* Contact Box */}
       <div className="contact-box bg-white text-center rounded p-4 p-sm-5 mt-5 mt-lg-0 shadow-lg">
         {/* Contact Form */}

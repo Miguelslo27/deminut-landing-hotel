@@ -3,8 +3,7 @@ import ContactForm from './ContactForm';
 
 const data = {
   heading: 'Contáctenos',
-  headingText:
-    'Envíenos su consulta y dentro de las próximas 24 horas hábiles nos contactaremos con usted.',
+  headingText: 'Envíenos su consulta y dentro de las próximas 24 horas hábiles nos contactaremos con usted.',
 };
 class ContactSection extends Component {
   render() {

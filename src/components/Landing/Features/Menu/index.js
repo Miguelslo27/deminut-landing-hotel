@@ -2,16 +2,13 @@ import './index.css';
 import React, { Component } from 'react';
 
 const data = {
-  heading:
-    'Ofrezca a sus clientes la carta online de su restaurante.',
-  headingText:
-    'Desde sus dispositivos móviles sus clientes podran ver los diferentes platos de su restaurante, utilizar el buscador para encontrar un plato o sección de interés, y ver imágenes de los productos que ofrece.',
+  heading: 'Ofrezca a sus clientes la carta online de su restaurante.',
+  headingText: 'Desde sus dispositivos móviles sus clientes podran ver los diferentes platos de su restaurante, utilizar el buscador para encontrar un plato o sección de interés, y ver imágenes de los productos que ofrece.',
   discoverData: [
     {
       id: 1,
       iconClass: 'fas fa-check',
-      text:
-        'Fácil implementación y edición. Los cambios que realice en su carta tienen efecto inmediato.',
+      text: 'Fácil implementación y edición. Los cambios que realice en su carta tienen efecto inmediato.',
     },
     {
       id: 2,
@@ -24,8 +21,7 @@ const data = {
       text: 'Sin necesidad de descargar ninguna app para su uso.',
     },
   ],
-  footerText:
-    'Pruébalo ahora escaneando con la cámara de su celular el código QR que aparece debajo, o haga click en el siguiente',
+  footerText: 'Pruébalo ahora escaneando con la cámara de su celular el código QR que aparece debajo, o haga click en el siguiente',
 };
 class DiscoverSection extends Component {
   render() {
@@ -58,7 +54,7 @@ class DiscoverSection extends Component {
                           {/* List Box */}
                           <div className="list-box media">
                             <span className="icon align-self-center">
-                              <i className={item.iconClass} style={{ color: '#ff1744' }} />
+                              <i className={item.iconClass} style={{ color: '#f9b302' }} />
                             </span>
                             <span className="media-body pl-2">
                               {item.text}
@@ -72,14 +68,16 @@ class DiscoverSection extends Component {
                 <p className="pt-3 pb-4">
                   {data.footerText}{' '}
                   <a
-                    href="https://www.deminut.com/menu/9171d6e0-b89b-11ea-bdfb-8b72b1aba827"
+                    href="https://portal-stg.deminut.com/menu/?id=dee6d2f0-f735-11ed-a86d-8dfaaa361644"
                     target="_blank"
                     style={{ fontWeight: 'bold', textDecoration: 'underline', display: 'inline' }}>link</a>.
                 </p>
-                <div className="qr-container">
+                <div className="qr-container" style={{
+                  textAlign: 'center',
+                }}>
                   <img
                     src="img/demo_qr.png"
-                    width={120}
+                    width={340}
                     style={{ filter: "opacity(70%)" }}
                   />
                 </div>

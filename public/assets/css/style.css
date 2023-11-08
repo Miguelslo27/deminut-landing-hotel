@@ -46,11 +46,12 @@
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap'); */
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
 ****************************** */
+@import url(fonts.css);
 @import url(bootstrap.min.css);
 @import url(all.min.css);
 @import url(../font/flaticon.css);
@@ -96,6 +97,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Mont', sans-serif;
   font-weight: 600;
   color: #222;
   margin-bottom: 0;
@@ -146,7 +148,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #ff1744;
+  color: #f9b302;
 }
 
 a,
@@ -229,7 +231,7 @@ img {
 }
 
 .text-primary {
-  color: #ff1744 !important;
+  color: #f9b302 !important;
 }
 
 .text-secondary {
@@ -282,7 +284,7 @@ img {
   content: '';
   height: 2px;
   width: 70px;
-  background-color: #ff1744;
+  background-color: #f9b302;
   bottom: -15px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -491,7 +493,7 @@ img {
 .btn.sApp-btn:before,
 .bg-overlay::after,
 .benifits-item:after {
-  background: linear-gradient(120deg, #ff0026 0%, #ff1744 100%);
+  background: linear-gradient(120deg, #f99c00 0%, #f9b302 100%);
 }
 
 /*SOCIAL ICONS*/
@@ -1030,7 +1032,7 @@ img {
 
 .play-icon {
   font-size: 22px;
-  color: #ff1744;
+  color: #f9b302;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1247,7 +1249,7 @@ img {
   text-align: center;
   line-height: 54px;
   font-size: 24px;
-  color: #ff1744;
+  color: #f9b302;
   border-radius: 4px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1348,9 +1350,9 @@ img {
 
 .slick-dots .slick-active button,
 .testimonial-area .owl-carousel button.owl-dot.active {
-  background-color: #ff1744;
-  -webkit-box-shadow: 0 1px 5px #ff1744;
-  box-shadow: 0 1px 5px #ff1744;
+  background-color: #f9b302;
+  -webkit-box-shadow: 0 1px 5px #f9b302;
+  box-shadow: 0 1px 5px #f9b302;
 }
 
 /* ******************************
@@ -1569,7 +1571,7 @@ img {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #ff1744;
+  background-color: #f9b302;
   border-radius: 100px;
   opacity: 0.9;
   z-index: -1;
@@ -1654,7 +1656,7 @@ img {
 .subscribe-form button {
   height: 60px;
   border-radius: 8px;
-  background: #ff1744 !important;
+  background: #f9b302 !important;
 }
 
 /* ******************************
@@ -1837,7 +1839,7 @@ img {
 }
 
 .widget-items li a.active {
-  color: #ff1744;
+  color: #f9b302;
 }
 
 .widget-items li a::before {
@@ -1863,7 +1865,7 @@ img {
 .widget-items li a:focus::before,
 .widget-items li a.active::before {
   width: 2px;
-  background-color: #ff1744;
+  background-color: #f9b302;
 }
 
 .widget-items li a span {
@@ -1982,7 +1984,7 @@ img {
   width: 2px;
   top: 0;
   left: 0;
-  background-color: #ff1744;
+  background-color: #f9b302;
 }
 
 .blog-comments {
@@ -2022,7 +2024,7 @@ img {
 .comments-content > h5 > a:last-child {
   font-size: 14px;
   font-weight: 500;
-  color: #ff1744;
+  color: #f9b302;
 }
 
 .contact-box.comment-box {
@@ -2054,7 +2056,7 @@ img {
   line-height: 45px;
   font-size: 18px;
   text-align: center;
-  background-color: #ff1744;
+  background-color: #f9b302;
   color: #fff;
   border-radius: 4px;
 }
@@ -2097,7 +2099,7 @@ img {
 .contact-box button {
   height: 60px;
   border-radius: 8px;
-  background: #ff1744 !important;
+  background: #f9b302 !important;
 }
 
 /*Map Area*/
@@ -2150,9 +2152,9 @@ img {
   margin-top: -40px;
 }
 
-.copyright-area {
+/* .copyright-area {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
+} */
 
 /* ******************************
 :: 27.0 ERROR AREA CSS

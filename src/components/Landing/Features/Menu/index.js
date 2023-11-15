@@ -68,7 +68,7 @@ class DiscoverSection extends Component {
                 <p className="pt-3 pb-4">
                   {data.footerText}{' '}
                   <a
-                    href="https://portal-stg.deminut.com/menu/?id=dee6d2f0-f735-11ed-a86d-8dfaaa361644"
+                    href="https://portal.deminut.com/menu/?id=dee6d2f0-f735-11ed-a86d-8dfaaa361644"
                     target="_blank"
                     style={{ fontWeight: 'bold', textDecoration: 'underline', display: 'inline' }}>link</a>.
                 </p>

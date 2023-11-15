@@ -68,7 +68,7 @@ const Header = props => {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="https://portal-stg.deminut.com">
+                    <a className="nav-link" href="https://portal.deminut.com">
                       Acceder al portal
                     </a>
                   </li>

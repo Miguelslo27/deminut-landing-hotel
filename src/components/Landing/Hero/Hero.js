@@ -28,7 +28,7 @@ const HeroSection = () => {
     e.preventDefault();
     ReactGA.event({ category: 'View', action: 'Demo' });
     ReactGA.pageview('/menu/demo');
-    window.location.href = 'https://portal-stg.deminut.com/menu/?id=dee6d2f0-f735-11ed-a86d-8dfaaa361644';
+    window.location.href = 'https://portal.deminut.com/menu/?id=dee6d2f0-f735-11ed-a86d-8dfaaa361644';
   };
 
   return (

@@ -8,8 +8,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "react-scripts build && aws s3 sync ./build s3://staging.deminut.com --acl public-read",
-    "deploy-prod": "react-scripts build && aws s3 sync ./build s3://deminut.com --acl public-read",
+    "deploy:prod": "react-scripts build && tar -czvf build.tar.gz ./build && scp -i ../ssh/deminut-api-stg-ec2.pem build.tar.gz ec2-user@ec2-15-228-228-210.sa-east-1.compute.amazonaws.com:~/",
     "deploy:stage": "react-scripts build && tar -czvf build.tar.gz ./build && scp -i ../ssh/deminut-api-stg-ec2.pem build.tar.gz ec2-user@ec2-15-229-114-44.sa-east-1.compute.amazonaws.com:~/"
   },
   "dependencies": {

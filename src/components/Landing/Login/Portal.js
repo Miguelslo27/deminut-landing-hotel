@@ -14,7 +14,7 @@ const SignupForm = ({ onLoginRequest }) => {
   const history = useHistory();
 
   const submitRegister = () => {
-    history.location = 'https://portal-stg.deminut.com';
+    history.location = 'https://portal.deminut.com';
   };
 
   return (
@@ -39,7 +39,7 @@ const SignupForm = ({ onLoginRequest }) => {
             <a
               className="btn btn-bordered w-100"
               disabled={loading}
-              href='https://portal-stg.deminut.com'
+              href='https://portal.deminut.com'
             >
               Iniciar sesión
             </a>

@@ -24,10 +24,11 @@ const HeroSection = () => {
     return (() => clearInterval(intervalId));
   });
 
-  const handleOnViewDemo = () => {
+  const handleOnViewDemo = (e) => {
+    e.preventDefault();
     ReactGA.event({ category: 'View', action: 'Demo' });
     ReactGA.pageview('/menu/demo');
-    window.location.href = '/menu/9171d6e0-b89b-11ea-bdfb-8b72b1aba827';
+    window.location.href = 'https://portal.deminut.com/menu/?id=dee6d2f0-f735-11ed-a86d-8dfaaa361644';
   };
 
   return (
@@ -58,13 +59,14 @@ const HeroSection = () => {
                   onClick={handleOnViewDemo}
                   className="btn sApp-btn text-uppercase"
                   target="_blank"
+                  href="#"
                 >
                   Ver demo
                 </a>
                 <a
                   className="btn sApp-btn text-uppercase"
                   target="_blank"
-                  href="https://wa.me/59894157315"
+                  href="https://wa.me/59892073609"
                 >
                   <FontAwesomeIcon
                     icon={faWhatsapp}

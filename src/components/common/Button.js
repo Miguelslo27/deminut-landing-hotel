@@ -7,12 +7,12 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     padding: '8px 14px',
-    border: '1px solid #ff1744',
+    border: '1px solid #f9b302',
     borderRadius: 16,
     alignItems: 'center',
   },
   title: {
-    color: '#ff1744',
+    color: '#f9b302',
   },
 }
 
@@ -23,7 +23,7 @@ export const ButtonTypes = {
 
 const Button = ({ type, icon, title, color }) => (
   <div style={type === ButtonTypes.OUTLINE ? styles.buttonOutline : styles.button}>
-    {icon && (<i className={icon} style={{ marginRight: 8, color: "#ff1744" }} />)}
+    {icon && (<i className={icon} style={{ marginRight: 8, color: "#f9b302" }} />)}
     <p style={styles.title}>{title}</p>
   </div>
 );

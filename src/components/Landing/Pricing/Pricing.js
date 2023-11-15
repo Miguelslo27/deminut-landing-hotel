@@ -5,17 +5,15 @@ const data = {
   preHeading: 'Flexible',
   preHeadingspan: 'Pricing',
   heading: 'Nuestros planes',
-  headingText:
-    'Comience ahora a brindar un servicio que marca la diferencia.',
-  text:
-    'Los precios están expresados en dólares estadounidenses (USD).',
+  headingText: 'Comience ahora a brindar un servicio que marca la diferencia.',
+  text: 'Los precios están expresados en dólares estadounidenses (USD).',
   pricingData: [
     {
       id: 1,
       planImage: '/img/price_basic.png',
       planTitle: 'Basic',
       priceSub: '$',
-      planPrice: '16.99',
+      planPrice: '19.99',
       planBtn: 'Seleccionar',
       features: [
         {
@@ -38,14 +36,14 @@ const data = {
           description: 'Recepción de pedidos de mesa en tiempo real',
           enabled: false,
         },
-        {
-          description: 'Integración con TPV e impresora térmica',
-          enabled: false,
-        },
-        {
-          description: 'Carta multi-idioma',
-          enabled: false,
-        },
+        // {
+        //   description: 'Integración con TPV e impresora térmica',
+        //   enabled: false,
+        // },
+        // {
+        //   description: 'Carta multi-idioma',
+        //   enabled: false,
+        // },
         {
           description: 'Soporte técnico preferencial',
           enabled: false,
@@ -80,14 +78,14 @@ const data = {
           description: 'Recepción de pedidos de mesa en tiempo real',
           enabled: true,
         },
-        {
-          description: 'Integración con TPV e impresora térmica',
-          enabled: true,
-        },
-        {
-          description: 'Carta multi-idioma',
-          enabled: true,
-        },
+        // {
+        //   description: 'Integración con TPV e impresora térmica',
+        //   enabled: true,
+        // },
+        // {
+        //   description: 'Carta multi-idioma',
+        //   enabled: true,
+        // },
         {
           description: 'Soporte técnico preferencial',
           enabled: true,
@@ -133,7 +131,7 @@ class PricingSection extends Component {
                         {/* Plan Thumb */}
                         {/* Plan Title */}
                         <div className="plan-title my-2 my-sm-3">
-                          <h3 className="text-uppercase" style={{ color: "#ff1744" }}>
+                          <h3 className="text-uppercase" style={{ color: "#f9b302" }}>
                             {item.planTitle}
                           </h3>
                         </div>

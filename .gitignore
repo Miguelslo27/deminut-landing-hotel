@@ -9,6 +9,7 @@ ios/Pods
 # Xcode
 #
 build/
+build.tar.gz
 *.pbxuser
 !default.pbxuser
 *.mode1v3

@@ -13,7 +13,7 @@ const data = {
       planImage: '/img/price_basic.png',
       planTitle: 'Basic',
       priceSub: '$',
-      planPrice: '19.99',
+      planPrice: '19.90',
       planBtn: 'Seleccionar',
       features: [
         {
@@ -36,14 +36,14 @@ const data = {
           description: 'Recepción de pedidos de mesa en tiempo real',
           enabled: false,
         },
-        // {
-        //   description: 'Integración con TPV e impresora térmica',
-        //   enabled: false,
-        // },
-        // {
-        //   description: 'Carta multi-idioma',
-        //   enabled: false,
-        // },
+        {
+          description: 'Integración con TPV e impresora térmica',
+          enabled: false,
+        },
+        {
+          description: 'Carta multi-idioma',
+          enabled: false,
+        },
         {
           description: 'Soporte técnico preferencial',
           enabled: false,
@@ -55,7 +55,7 @@ const data = {
       planImage: '/img/price_premium.png',
       planTitle: 'Pro',
       priceSub: '$',
-      planPrice: '39.99',
+      planPrice: '39.90',
       planBtn: 'Seleccionar',
       features: [
         {
@@ -78,14 +78,14 @@ const data = {
           description: 'Recepción de pedidos de mesa en tiempo real',
           enabled: true,
         },
-        // {
-        //   description: 'Integración con TPV e impresora térmica',
-        //   enabled: true,
-        // },
-        // {
-        //   description: 'Carta multi-idioma',
-        //   enabled: true,
-        // },
+        {
+          description: 'Integración con TPV e impresora térmica',
+          enabled: true,
+        },
+        {
+          description: 'Carta multi-idioma',
+          enabled: true,
+        },
         {
           description: 'Soporte técnico preferencial',
           enabled: true,

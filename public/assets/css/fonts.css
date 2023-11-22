@@ -43,14 +43,14 @@
 @font-face {
   font-family: 'Mont';
   src: url('../font/Mont-ExtraLight.otf') format('opentype');
-  font-weight: lighter;
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
   src: url('../font/Mont-ExtraLightItalic.otf') format('opentype');
-  font-weight: lighter;
+  font-weight: 500;
   font-style: italic;
 }
 
@@ -67,6 +67,8 @@
   font-weight: lighter;
   font-style: italic;
 }
+
+/* --------------- */
 
 @font-face {
   font-family: 'Montserrat';

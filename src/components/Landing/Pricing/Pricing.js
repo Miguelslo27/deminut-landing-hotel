@@ -34,6 +34,10 @@ const data = {
         },
         {
           description: 'Recepción de pedidos de mesa en tiempo real',
+          enabled: true,
+        },
+        {
+          description: 'Recepción de pedidos para delivery en tiempo real',
           enabled: false,
         },
         {
@@ -76,6 +80,10 @@ const data = {
         },
         {
           description: 'Recepción de pedidos de mesa en tiempo real',
+          enabled: true,
+        },
+        {
+          description: 'Recepción de pedidos para delivery en tiempo real',
           enabled: true,
         },
         {
@@ -184,7 +192,10 @@ class PricingSection extends Component {
                                       index == 5 &&
                                       'border-bottom py-3',
                                     ].join(' ')}
-                                    style={{ color: '#757575' }}
+                                    style={{
+                                      color: '#D0D0D0',
+                                      textDecoration: 'line-through',
+                                    }}
                                   >
                                     {feature.description}
                                   </li>

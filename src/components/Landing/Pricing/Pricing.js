@@ -5,17 +5,15 @@ const data = {
   preHeading: 'Flexible',
   preHeadingspan: 'Pricing',
   heading: 'Nuestros planes',
-  headingText:
-    'Comience ahora a brindar un servicio que marca la diferencia.',
-  text:
-    'Los precios están expresados en dólares estadounidenses (USD).',
+  headingText: 'Comience ahora a brindar un servicio que marca la diferencia.',
+  text: 'Los precios están expresados en dólares estadounidenses (USD).',
   pricingData: [
     {
       id: 1,
       planImage: '/img/price_basic.png',
       planTitle: 'Basic',
       priceSub: '$',
-      planPrice: '16.99',
+      planPrice: '19.90',
       planBtn: 'Seleccionar',
       features: [
         {
@@ -36,6 +34,10 @@ const data = {
         },
         {
           description: 'Recepción de pedidos de mesa en tiempo real',
+          enabled: true,
+        },
+        {
+          description: 'Recepción de pedidos para delivery en tiempo real',
           enabled: false,
         },
         {
@@ -57,7 +59,7 @@ const data = {
       planImage: '/img/price_premium.png',
       planTitle: 'Pro',
       priceSub: '$',
-      planPrice: '39.99',
+      planPrice: '39.90',
       planBtn: 'Seleccionar',
       features: [
         {
@@ -78,6 +80,10 @@ const data = {
         },
         {
           description: 'Recepción de pedidos de mesa en tiempo real',
+          enabled: true,
+        },
+        {
+          description: 'Recepción de pedidos para delivery en tiempo real',
           enabled: true,
         },
         {
@@ -186,7 +192,10 @@ class PricingSection extends Component {
                                       index == 5 &&
                                       'border-bottom py-3',
                                     ].join(' ')}
-                                    style={{ color: '#757575' }}
+                                    style={{
+                                      color: '#D0D0D0',
+                                      textDecoration: 'line-through',
+                                    }}
                                   >
                                     {feature.description}
                                   </li>

@@ -6,11 +6,10 @@
   "scripts": {
     "start": "PORT=3002 react-scripts start",
     "build": "react-scripts build",
-    "start:docker": "docker build -t deminut-landing-app . && docker run -d -p 80:80 --name deminut-landing-container deminut-landing-app",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "react-scripts build && aws s3 sync ./build s3://staging.deminut.com --acl public-read",
-    "deploy-prod": "react-scripts build && aws s3 sync ./build s3://deminut.com --acl public-read"
+    "deploy:prod": "react-scripts build && tar -czvf build.tar.gz ./build && scp -i ../ssh/deminut-api-stg-ec2.pem build.tar.gz ec2-user@ec2-15-228-228-210.sa-east-1.compute.amazonaws.com:~/",
+    "deploy:stage": "react-scripts build && tar -czvf build.tar.gz ./build && scp -i ../ssh/deminut-api-stg-ec2.pem build.tar.gz ec2-user@ec2-15-229-114-44.sa-east-1.compute.amazonaws.com:~/"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",

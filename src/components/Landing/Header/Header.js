@@ -45,13 +45,6 @@ const Header = props => {
             <ul className="navbar-nav" id="navbar-nav">
               {!hideItems && (
                 <>
-                  <li className="nav-item dropdown">
-                    <li className="nav-item">
-                      <a className="nav-link scroll" href="#home">
-                        Inicio
-                      </a>
-                    </li>
-                  </li>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#features">
                       Servicios
@@ -60,11 +53,6 @@ const Header = props => {
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#pricing">
                       Planes
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link scroll" href="#contact">
-                      Contacto
                     </a>
                   </li>
                   <li className="nav-item">

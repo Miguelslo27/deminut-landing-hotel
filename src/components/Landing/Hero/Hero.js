@@ -9,7 +9,6 @@ const TEXTS = [
 ];
 
 const HeroSection = () => {
-  const [showLoginModal, setShowLoginModal] = useState(false);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -18,13 +17,6 @@ const HeroSection = () => {
       3250);
     return (() => clearInterval(intervalId));
   });
-
-  const handleOnViewDemo = (e) => {
-    e.preventDefault();
-    ReactGA.event({ category: 'View', action: 'Demo' });
-    ReactGA.pageview('/menu/demo');
-    window.location.href = 'https://portal.deminut.com/menu/?id=dee6d2f0-f735-11ed-a86d-8dfaaa361644';
-  };
 
   return (
     <section
@@ -36,7 +28,7 @@ const HeroSection = () => {
           <div className="col-12 col-lg-7">
             <div className="welcome-intro">
               <h1 className="text-white">
-                Lleve su
+                Llevá tu
                 <TextTransition
                   text={TEXTS[index % TEXTS.length]}
                   springConfig={presets.stiff}
@@ -47,7 +39,7 @@ const HeroSection = () => {
                 className="text-white my-4"
                 style={{ fontSize: 16 }}
               >
-                Ya no necesitas entregar el menú de manera convencional a tus clientes. Invítalos a escanear un código QR para acceder instantáneamente al menú digital, elevando así la calidad del servicio que ofreces.
+                Ya no necesitás entregar el menú de manera convencional a tus clientes. Invitalos a escanear un código QR para acceder instantáneamente al menú digital, elevando así la calidad del servicio que ofreces.
               </p>
             </div>
           </div>

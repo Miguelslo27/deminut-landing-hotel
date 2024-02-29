@@ -57,7 +57,7 @@ const Header = props => {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="https://portal.deminut.com">
-                      Acceder al portal
+                      Entrar al portal
                     </a>
                   </li>
                 </>

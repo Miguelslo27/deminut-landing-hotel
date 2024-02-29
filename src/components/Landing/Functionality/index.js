@@ -3,28 +3,28 @@ import React, { Component } from 'react';
 const data = {
   heading: '¿Cómo funciona?',
   headingText:
-    'Tres simples pasos que deberá realizar el comensal:',
+    'Tres simples pasos para tus cliente:',
   workData: [
     {
       id: 1,
       iconClass: 'fas fa-qrcode fa-3x',
       title: 'Escanear',
       content:
-        'Escanear el código QR de la mesa de su restaurante para acceder a la carta online.',
+        'Escanea el código QR para acceder a la carta online.',
     },
     {
       id: 2,
       iconClass: 'fas fa-utensils fa-3x',
       title: 'Elegir',
       content:
-        'Elegir entre todos los platos a disposición del menú.',
+        'Elige entre las opciones del menú.',
     },
     {
       id: 3,
       iconClass: 'fas fa-concierge-bell fa-3x',
       title: 'Pedir',
       content:
-        'Realizar la orden de forma sencilla desde su celular.',
+        'Realiza la orden de forma sencilla y abona desde su celular.',
     },
   ],
 };

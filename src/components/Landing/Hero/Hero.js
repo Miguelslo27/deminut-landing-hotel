@@ -1,15 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import TextTransition, { presets } from 'react-text-transition';
 import ReactGA from 'react-ga';
-import Portal from '../Login/Portal';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const TEXTS = [
-  'local de comidas',
   'restaurante',
   'cafetería',
-  'bar',
   'hotel',
 ];
 
@@ -51,31 +46,10 @@ const HeroSection = () => {
                 className="text-white my-4"
                 style={{ fontSize: 16 }}
               >
-                Ya no es necesario darles el menú de forma tradicional a sus clientes. Permita que escaneen un código QR situado en la mesa de su local de comidas y accedan de forma inmediata al menú en formato digital y brinde un servicio de excelencia.
+                Ya no necesitas entregar el menú de manera convencional a tus clientes. Invítalos a escanear un código QR para acceder instantáneamente al menú digital, elevando así la calidad del servicio que ofreces.
               </p>
-              <div className="button-group store-buttons d-flex">
-                <a
-                  onClick={handleOnViewDemo}
-                  className="btn sApp-btn text-uppercase"
-                  target="_blank"
-                >
-                  Ver demo
-                </a>
-                <a
-                  className="btn sApp-btn text-uppercase"
-                  target="_blank"
-                  href="https://wa.me/59891066416"
-                >
-                  <FontAwesomeIcon
-                    icon={faWhatsapp}
-                    style={{ marginRight: 8 }}
-                  />
-                  Hablar con ventas
-                </a>
-              </div>
             </div>
           </div>
-          <Portal />
         </div>
       </div>
       {/* Shape Bottom */}

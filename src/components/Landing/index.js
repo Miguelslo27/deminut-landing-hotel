@@ -6,9 +6,7 @@ import OrderFeature from './Features/Order';
 import MenuFeature from './Features/Menu';
 import Functionality from './Functionality';
 import Pricing from './Pricing/Pricing';
-import Contact from './Contact/Contact';
 import Footer from './Footer';
-import Clients from './Clients';
 import ReactGA from 'react-ga';
 
 const Landing = () => {
@@ -35,9 +33,7 @@ const Landing = () => {
           <OrderFeature />
         </div>
         <Functionality />
-        {/* <Clients /> */}
         <Pricing />
-        <Contact />
         <Footer />
       </div>
     </div>

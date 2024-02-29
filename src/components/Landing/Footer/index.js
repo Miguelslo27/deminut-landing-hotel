@@ -21,8 +21,8 @@ class FooterSection extends Component {
                     </div>
                     {/* Copyright Right */}
                     <div className="copyright-right" style={{ fontSize: '12px', marginLeft: 16 }}>
-                      © 2023 Deminut. Made with <i className="fas fa-heart" /> By{' '}
-                      <a href="/#" style={{ color: '#f9b302' }}>Reach</a>
+                      © 2023 Deminut. Powered By{' '}
+                      <a href="https://akalab.tech/es" style={{ color: '#f9b302' }}>AkaLab</a>
                     </div>
                   </div>
                 </div>

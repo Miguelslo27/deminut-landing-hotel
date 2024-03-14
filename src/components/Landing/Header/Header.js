@@ -1,7 +1,7 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 
 const Header = props => {
-  const { onHandleLogin, hideItems } = props;
+  const { hideItems } = props;
 
   return (
     <header
@@ -47,7 +47,7 @@ const Header = props => {
                 <>
                   <li className="nav-item">
                     <a className="nav-link scroll" href="#features">
-                      Servicios
+                      Solución para tu establecimiento
                     </a>
                   </li>
                   <li className="nav-item">

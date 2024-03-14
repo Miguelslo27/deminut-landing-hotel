@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import TextTransition, { presets } from 'react-text-transition';
-import ReactGA from 'react-ga';
 
 const TEXTS = [
   'restaurante',
@@ -14,7 +13,7 @@ const HeroSection = () => {
   useEffect(() => {
     const intervalId = setInterval(() =>
       setIndex(index => index + 1),
-      3250);
+      1500);
     return (() => clearInterval(intervalId));
   });
 
@@ -25,7 +24,7 @@ const HeroSection = () => {
     >
       <div className="container">
         <div className="row align-items-center justify-content-center">
-          <div className="col-12 col-lg-7">
+          <div className="col-12 col-lg-6">
             <div className="welcome-intro">
               <h1 className="text-white">
                 Llevá tu
@@ -42,6 +41,12 @@ const HeroSection = () => {
                 Ya no necesitás entregar el menú de manera convencional a tus clientes. Invitalos a escanear un código QR para acceder instantáneamente al menú digital, elevando así la calidad del servicio que ofreces.
               </p>
             </div>
+          </div>
+          <div className="col-12 col-lg-6">
+            <img
+              src="img/hero-prom.jpg"
+              className="hero-prom"
+            />
           </div>
         </div>
       </div>

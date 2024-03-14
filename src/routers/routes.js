@@ -13,12 +13,8 @@ const Routes = () => (
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/menu/:id" render={({ match }) => (
-          <ViewMenu menuId={match.params.id} />
-        )}>
-        </Route>
       </Switch>
     </Router>
-  </div>
+  </div >
 );
 export default Routes;

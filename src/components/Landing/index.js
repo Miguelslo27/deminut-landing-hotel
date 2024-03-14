@@ -1,18 +1,15 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import Header from './Header/Header';
 import Hero from './Hero/Hero';
 import OrderFeature from './Features/Order';
-import MenuFeature from './Features/Menu';
 import Functionality from './Functionality';
 import Pricing from './Pricing/Pricing';
 import Footer from './Footer';
 import ReactGA from 'react-ga';
+import Establishment from './Features/Establishment';
 
 const Landing = () => {
-  const [, setLoginVisible] = useState(false);
-  const handleLoginVisible = useCallback(() => setLoginVisible(true), [setLoginVisible]);
-
   useEffect(() => {
     ReactGA.pageview(window.location.pathname);
   }, []);
@@ -23,13 +20,10 @@ const Landing = () => {
         <i className="fas fa-arrow-up" />
       </div>
       <div className="main">
-        <Header
-          imageData={'/img/logo-white.png'}
-          onHandleLogin={handleLoginVisible}
-        />
+        <Header imageData={'/img/logo-white.png'} />
         <Hero />
         <div id="features">
-          <MenuFeature />
+          <Establishment />
           <OrderFeature />
         </div>
         <Functionality />

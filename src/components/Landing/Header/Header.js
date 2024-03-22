@@ -46,7 +46,7 @@ const Header = props => {
               {!hideItems && (
                 <>
                   <li className="nav-item">
-                    <a className="nav-link scroll" href="#features">
+                    <a className="nav-link scroll" href="#establishments" data-offset="-50">
                       Solución para tu establecimiento
                     </a>
                   </li>

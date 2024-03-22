@@ -82,9 +82,10 @@ $(document).ready(function () {
   // :: 4.0 SMOOTH SCROLLING ACTIVE CODE
   scrollLink.on('click', function (e) {
     e.preventDefault();
+    const offset = $(this).data().offset || 0;
     $('body,html').animate(
       {
-        scrollTop: $(this.hash).offset().top,
+        scrollTop: $(this.hash).offset().top + offset,
       },
       1000,
     );

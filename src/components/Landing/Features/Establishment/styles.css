@@ -3,9 +3,16 @@
 }
 
 .establishments {
-  position: relative;
-  top: -70px;
-  z-index: 10;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.establishments h1 {
+  margin-bottom: 1rem;
+}
+
+.establishments p {
+  margin-bottom: 3rem;
 }
 
 .establishments .options {

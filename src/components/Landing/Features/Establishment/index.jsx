@@ -3,8 +3,11 @@ import './styles.css';
 
 const Establishment = () => {
   return (
-    <section className="section discover-area">
+    <section className="section discover-area" id="establishments">
       <div className="container establishments">
+        <h2>Maximizá el potencial de tu establecimiento</h2>
+        <p>Explorá cómo Deminut puede impulsar tu negocio, ofreciendo soluciones personalizadas<br />que se ajustan perfectamente a tus requerimientos específicos.</p>
+
         <div className="options">
           <div className="establishment restaurant">
             <span className="icon">
@@ -14,6 +17,7 @@ const Establishment = () => {
             </span>
             <h3>Restaurante</h3>
             <p>Revitalizá tu restaurante con Deminut. Menús digitales con QR para un servicio más rápido y una experiencia única. ¡Innová hoy!</p>
+            <a href="/qr-para-restaurante" className="btn">Saber más</a>
           </div>
           <div className="establishment cafe">
             <span className="icon">
@@ -23,6 +27,7 @@ const Establishment = () => {
             </span>
             <h3>Cafetería</h3>
             <p>Transformá tu cafetería con Deminut. Menús digitales con QR para cambiar ofertas al instante. ¡Hacé que cada visita sea especial!</p>
+            <a href="/qr-para-cafetería" className="btn">Saber más</a>
           </div>
           <div className="establishment hotel">
             <span className="icon">
@@ -32,6 +37,7 @@ const Establishment = () => {
             </span>
             <h3>Hotel</h3>
             <p>Mejorá la estadía en tu hotel con Deminut. Menús digitales con QR para una experiencia cómoda y segura. ¡Sorprendé a tus huéspedes!</p>
+            <a href="/qr-para-hotel" className="btn">Saber más</a>
           </div>
         </div>
       </div>

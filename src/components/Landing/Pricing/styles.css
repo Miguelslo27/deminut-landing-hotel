@@ -1,0 +1,104 @@
+.price-plan-wrapper {}
+.price-plan-wrapper>div {}
+
+.featured>div {
+  position: absolute;
+  z-index: 10;
+  transform: scale(1.05);
+}
+
+.featured>div::after {
+  content: "¡Más popular!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: orange;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.price-mode {
+  position: relative;
+  font-weight: bold;
+}
+.price-mode.selected {
+  color: orange;
+}
+.price-mode sup {
+  position: absolute;
+  width: 12em;
+  height: 2em;
+  top: -1.5em;
+  left: calc(100% + 0.5em);
+  padding: 0.3em;
+  line-height: 1.5em;
+  color: white;
+  border-radius: 0.5em;
+  border-bottom-left-radius: 0;
+  background-color: rgb(249, 179, 2);
+}
+.MuiSwitch-root.pricing {
+  width: 4em;
+  height: 2em;
+  padding: 0;
+  margin: 1em;
+}
+.MuiSwitch-root.pricing .MuiSwitch-track {
+  background-color: rgb(249, 179, 2, .5) !important;
+  border-radius: 3em;
+}
+.MuiSwitch-root.pricing.yearly .MuiSwitch-track {
+  background-color: rgb(249, 179, 2) !important;
+}
+.MuiSwitch-root.pricing .MuiSwitch-switchBase {
+  color: rgb(249, 179, 2, .5);
+  padding: .15em;
+}
+.MuiSwitch-root.pricing .MuiSwitch-switchBase.Mui-checked {
+  color: orange;
+  transform: translateX(1.15em)
+}
+
+@media (width < 768px) {
+  .row:has(.price-plan-wrapper) {
+    text-align: center;
+  }
+  
+  .price-plan-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 25px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .price-plan-wrapper>div {
+    scroll-snap-align: center;
+    flex: 0 0 80%;
+    flex-shrink: 0;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+  }
+  .price-plan-wrapper>div:first-child {
+    margin-left: 25px;
+  }
+  .price-plan-wrapper>div:last-child {
+    margin-right: 25px;
+  }
+  
+  .featured>div {
+    position: relative;
+    transform: initial;
+  }
+  
+  .featured>div::after {}
+}

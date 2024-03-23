@@ -166,8 +166,41 @@ const PricingSection = () => {
     ev.target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  // useEffect(() => {
+  //   const mediaQuery = window.matchMedia('(width <= 768px)');
+  //   const featuredElement = document.querySelector('.featured');
+
+  //   if (mediaQuery.matches && featuredElement) {
+  //     featuredElement.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // }, []);
+
   useEffect(() => {
-    document.querySelector('.featured').scrollIntoView({ behavior: 'smooth' });
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    const featuredElement = document.querySelector('.featured');
+
+    if (mediaQuery.matches && featuredElement) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          // console.log(entries);
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        },
+        {
+          root: null, // El viewport
+          rootMargin: '0px',
+          threshold: 0.01 // El porcentaje del elemento que debe estar visible para activar el callback
+        }
+      );
+
+      observer.observe(featuredElement);
+
+      // Limpia el observer al desmontar el componente
+      return () => observer.disconnect();
+    }
   }, []);
   
   return (
